@@ -1,0 +1,17 @@
+{
+  "name": "generate-nocks-from-requests",
+  "version": "0.1.0",
+  "description": "Generate Nock calls from Reqest calls",
+  "main": "index.js",
+  "author": "Luca Nils Schmid",
+  "license": "MIT",
+  "dependencies": {
+    "request-debug": "^0.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.1.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}
