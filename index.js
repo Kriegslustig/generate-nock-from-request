@@ -29,6 +29,8 @@ module.exports = function generateNocksFromRequests (
   if (flushOnExit) {
     process.on('exit', flush)
     process.on('SIGTERM', flush)
+    process.on('SIGHUP', flush)
+    process.on('SIGBREAK', flush)
   }
 
   return flush
