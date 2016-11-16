@@ -47,6 +47,6 @@ The default arguments are as follows:
 
 ### Flush `() => void`
 
-Writes all the buffered mocks to the file defined in `options.output`. The `Flush` function is called automatically when the process exits regularly, or it recieves one of this signals `SIGTERM`, `SIGHUP`, 'SIGBREAK'. To disable this behaviour, set `flushOnExit: false`.
+Writes all the buffered mocks to the file defined in `options.output`. The `Flush` function is called automatically when the process exits regularly, or it receives one of this signals `SIGTERM`, `SIGHUP`, 'SIGBREAK'. To disable this behaviour, set `flushOnExit: false`.
 
 [^1]: Yes, I did not type it again, but just copy-pasted it over from the header.
