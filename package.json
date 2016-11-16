@@ -1,7 +1,7 @@
 {
   "name": "generate-nocks-from-requests",
   "version": "0.1.0",
-  "description": "Generate Nock calls from Reqest calls",
+  "description": "Automatically generate Nock mocks from requests made with Request",
   "main": "index.js",
   "author": "Luca Nils Schmid",
   "license": "MIT",
