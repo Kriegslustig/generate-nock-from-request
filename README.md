@@ -1,4 +1,4 @@
-# Generate Nocks from Requests (sorry for the terribly uncreative name)
+# Generate Nocks from Requests – 0.1.0
 
 Automatically generate [*Nock*](https://www.npmjs.com/package/nock) mocks from requests made with [*Request*](https://www.npmjs.com/package/request).
 

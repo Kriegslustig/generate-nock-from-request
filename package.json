@@ -3,10 +3,9 @@
   "version": "0.1.0",
   "description": "Automatically generate Nock mocks from requests made with Request",
   "main": "dist/index.js",
-  "author": "Luca Nils Schmid",
+  "author": "Luca Nils Schmid <npm@ls7.ch>",
   "license": "MIT",
   "dependencies": {
-    "babel-plugin-transform-flow-strip-types": "^6.18.0",
     "request-debug": "^0.2.0"
   },
   "devDependencies": {
